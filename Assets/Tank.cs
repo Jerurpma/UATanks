@@ -25,7 +25,7 @@ public class Tank : MonoBehaviour
 	public bool canShoot;                   //Can the tank shoot if it wants to?
 
 	[Header("Components / Objects")]
-	public Rigidbody2D rig;                 //The tank's Rigidbody2D component. 
+	public Rigidbody2D rig;                 //The tank's turnbody2D component. 
 	public GameObject projectile;           //The projectile prefab of which the tank can shoot.
 	public GameObject deathParticleEffect;  //The particle effect prefab that plays when the tank dies.
 	public Transform muzzle;                //The muzzle of the tank. This is where the projectile will spawn.
